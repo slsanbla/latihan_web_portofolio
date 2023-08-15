@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Hallo
+            </div>
+
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skill">skills</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- Artikel 1 -->
+        <article id="about">
+            <div class="image">
+                <img src="WhatsApp Image 2023-08-15 at 09.19.37.jpeg" alt="gambar coding">
+            </div>
+
+            <div class="content1">
+                <h3>Hallo, I'm  </h3>
+                <h2>Salsa Nabila</h2>
+                <p>Saya adalah siswi dari SMK Krian 1 Sidoarjo dengan jurusan Rekayasa Perangkat Lunak yang sekarang berada dikelas XII</p>
+
+                <button id="dowloadButton"> 
+                    <a href="PROPOSAL TUGAS AKHIR (1).docx">Download CV</a>
+                </button>
+            </div>
+        </article>
+
+        <!-- Article 2 -->
+        <article id="skill">
+            <h2>Skills</h2>
+            <!-- Skill 1 -->
+            <div class="content2">
+            <section class="card">
+                <img src="capcut.jpg" alt="gambar coding" width="20%">
+
+                <h3>editing video</h3>
+            </section>
+
+            <!-- Skill 2 -->
+            <section class="card">
+                <img src="pixellab.jpg" alt="gambar coding" width="20%" >
+
+                <h3>desain poster</h3>
+            </section>
+
+            <!-- Skill 3 -->
+            <section class="card">
+                <img src="images.jpg" alt="gambar coding" width="20%">
+
+                <h3>canva</h3>
+            </section>
+            </div>
+        </article>
+
+        <form id="contact">
+            <fieldset>
+                <h2>My contact</h2>
+                
+
+                <label for="nama">Nama :</label><br>
+                <input type="text" id="nama"><br>
+                
+                <label for="email">Email :</label><br>
+                <input type="email" id="email"><br>
+
+                <label for="pesan">Pesan :</label><br>
+                <textarea id="pesan" cols="30" rows="10"></textarea> 
+                <br>
+
+                <button>Kirim</button>
+            </fieldset>
+        </form>
+    </main>
+    
+    <footer>
+        <p>Pemrograman Web &copy; Salsa</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
